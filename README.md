@@ -6,4 +6,4 @@ Once completing this project, I hope to demonstrate the skills I have learned wi
 
 * This includes setting up HTML boilerplates, head and body elements, headers, paragraphs, strong and emphasis, unordered and ordered lists, and more. Also, familiarize myself with Git workflow, good commit messages, and knowing when to commit.
 
-Reflections:
+*Finished October 2023*
