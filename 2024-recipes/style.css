@@ -1,49 +1,169 @@
-.top {
-    text-align: center;
-    font-family: monospace, fantasy;
-    color: #47949f;
-    font-size: 50px;
-    margin-top: 175px;
-}
-
-.list {
-    font-size: 20px;
-    font-family: monospace, fantasy;
-    color: #51afb1;
-    background: #47949f;
-    width: 500px;
-    margin: 0 auto;
-    padding: 30px 0px;
-}
-
-a {
-    display: block;
+html {
     box-sizing: border-box;
 }
 
-.ga {
-    background: white;
-    text-align: center;
-    border: 10px solid #47949f;
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px 0px;
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
-.thit {
-    background: white;
-    text-align: center;
-    border: 10px solid #47949f;
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px 0px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.che {
-    background: white;
+body {
+    font-family: "Anaheim", "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    background-color: #EADBC8;
+}
+
+.top {
     text-align: center;
-    border: 10px solid #47949f;
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px 0px;
+    color: #908374;
+    margin: 10px 20px 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #908374;
+}
+
+a:unvisited {
+    color: #908374;
+}
+
+a:visited {
+    color: #D37676;
+}
+
+.nav-buttons {
+    margin: 20px;
+    text-align: center;
+}
+
+.nav-buttons a {
+    background-color: #F1F1F1;
+    display: inline-block;
+    margin: 0px 40px;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 8px;
+    width: 207px;
+}
+
+.nav-buttons a:hover {
+    background-color: #B5C18E;
+    border: none;
+}
+
+.images {
+    width: max-content;
+    margin: auto;
+    padding-right: 43px;
+}
+
+.image-ga,
+.image-thit,
+.image-che {
+    margin: 20px;
+}
+
+img.ga,
+img.thit,
+img.che {
+    margin: 0px 20px;
+    border-radius: 8px;
+}
+
+.image-ga,
+.image-che {
+    position: relative;
+    width: 200px;
+    display: inline-block;
+}
+
+.image-thit {
+    position: relative;
+    width: 350px;
+    display: inline-block;
+}
+
+img.ga,
+img.thit,
+img.che {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    height: 97.5%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #D37676;
+    border-radius: 8px;
+}
+
+.image-ga:hover .overlay,
+.image-thit:hover .overlay,
+.image-che:hover .overlay {
+    opacity: .90;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    /* This is put here on w3schools but I am not familiar with -webkit- or -ms- meanings yet.
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    I assume this is for web-related optimization. */
+    transform: translate(-50%, -50%);
+}
+
+.introduction {
+    max-width: 850px;
+    text-align: center;
+    margin: auto;
+    border: solid #C7B7A3 2px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255, .3)
+    /* To set the opacity of an element without affecting it's child elements, I have to use RGB and add a 4th number from 0-1 that represents the opacity. */
+}
+
+p {
+    padding: 2px;
+    margin: 5px;
+    color: #908374;
+    font-weight: 600;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.odin {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 20px 20px 10px 20px;
+    background-color: #B5C18E;
+    border: none;
+    border-radius: 8px;
+}
+
+.odin:hover {
+    background-color: #F1F1F1;
+    border: none;
 }
