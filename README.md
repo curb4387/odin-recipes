@@ -1,8 +1,8 @@
 This repository contains two separate tries of the same project: Odin Recipes.
 
-The first (2023-recipes) was finished in October 2023 when I was first studying web development with the Odin Project.
+The first (2023-recipes) was finished in October 2023 when I was first studying web development with the Odin Project. You can find this in the "old" branch.
 
-The second (2024-recipes) was finished in May 2024 when I continued re-studying web development with the Odin Project.
+The second (2024-recipes) was finished in May 2024 when I continued re-studying web development with the Odin Project. You can find this in the "main" branch.
 
 *****
 
