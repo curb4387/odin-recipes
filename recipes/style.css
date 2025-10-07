@@ -25,35 +25,28 @@ body {
     margin: 10px 20px 20px 20px;
 }
 
-.float {
-    margin: auto;
-    max-width: 1000px;
-}
-
 .image {
     width: max-content;
-    float: left;
+    margin: auto;
 }
 
 .image img {
     border-radius: 8px;
 }
 
-.desc-text {
-}
-
 .description {
     color: #D37676;
     font-size: 25px;
-    text-align: ;
+    text-align: center;
     margin: 10px;
 }
 
 .paragraphs {
     color: #908374;
     font-weight: 600;
-    margin-left: 100px;
-    text-align: ;
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
     border: solid #C7B7A3 2px;
     border-radius: 8px;
     background-color: rgb(255, 255, 255, .3)
